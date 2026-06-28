@@ -1,20 +1,35 @@
-# GoIT Markup Homework #1
+# GoIT Markup Homework #2
 
-HTML markup of the WebStudio page based on the Figma design mockup, without CSS styling.
+CSS styling of the WebStudio page based on the Figma design mockup. Styles are split into modular files under `css/` and connected through `main.css`.
 
 ## Live page
 
-[https://kolydun.github.io/goit-markup-hw-01/](https://kolydun.github.io/goit-markup-hw-01/)
+[https://kolydun.github.io/goit-markup-hw-02/](https://kolydun.github.io/goit-markup-hw-02/)
 
 ## Project structure
 
 ```
-goit-markup-hw-01/
+goit-markup-hw-02/
 ├── index.html
+├── css/
+│   ├── main.css
+│   ├── common.css
+│   ├── header.css
+│   ├── hero.css
+│   ├── features.css
+│   ├── team.css
+│   ├── portfolio.css
+│   └── footer.css
 ├── images/
 │   ├── team-1.jpg
 │   ├── team-2.jpg
 │   ├── team-3.jpg
-│   └── team-4.jpg
+│   ├── team-4.jpg
+│   ├── portfolio-1.jpg
+│   ├── portfolio-2.jpg
+│   ├── portfolio-3.jpg
+│   ├── portfolio-4.jpg
+│   ├── portfolio-5.jpg
+│   └── portfolio-6.jpg
 └── README.md
 ```
